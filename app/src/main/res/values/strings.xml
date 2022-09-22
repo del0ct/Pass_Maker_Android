@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pass Maker</string>
+    <string name="hint1">any english letters or numbers </string>
+    <string name="hint2">ONLY numbers minimum 2</string>
+    <string name="hint3">ONLY letters minimum 3</string>
+    <string name="btn1">Solve</string>
+    <string name="btn2">Copy</string>
+    <string name="needmore">it`s not at all...</string>
+    <string name="symb">On symbols</string>
+</resources>
