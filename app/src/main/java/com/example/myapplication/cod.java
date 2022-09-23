@@ -67,326 +67,486 @@ public class cod extends AppCompatActivity {
     public static List strtolstws(String str1){
         List list1 = new ArrayList();
         for (int i = 0; i < (int) str1.length(); i++) {
-            if (str1.charAt(i) == 'a')
-                list1.add(1);
-            else if (str1.charAt(i) == 'b')
-                list1.add(2);
-            else if (str1.charAt(i) == 'c')
-                list1.add(3);
-            else if (str1.charAt(i) == 'd')
-                list1.add(4);
-            else if (str1.charAt(i) == 'e')
-                list1.add(5);
-            else if (str1.charAt(i) == 'f')
-                list1.add(6);
-            else if (str1.charAt(i) == 'g')
-                list1.add(7);
-            else if (str1.charAt(i) == 'h')
-                list1.add(8);
-            else if (str1.charAt(i) == 'i')
-                list1.add(9);
-            else if (str1.charAt(i) == 'j')
-                list1.add(10);
-            else if (str1.charAt(i) == 'k')
-                list1.add(11);
-            else if (str1.charAt(i) == 'l')
-                list1.add(12);
-            else if (str1.charAt(i) == 'm')
-                list1.add(13);
-            else if (str1.charAt(i) == 'n')
-                list1.add(14);
-            else if (str1.charAt(i) == 'o')
-                list1.add(15);
-            else if (str1.charAt(i) == 'p')
-                list1.add(16);
-            else if (str1.charAt(i) == 'q')
-                list1.add(17);
-            else if (str1.charAt(i) == 'r')
-                list1.add(18);
-            else if (str1.charAt(i) == 's')
-                list1.add(19);
-            else if (str1.charAt(i) == 't')
-                list1.add(20);
-            else if (str1.charAt(i) == 'u')
-                list1.add(21);
-            else if (str1.charAt(i) == 'v')
-                list1.add(22);
-            else if (str1.charAt(i) == 'w')
-                list1.add(23);
-            else if (str1.charAt(i) == 'x')
-                list1.add(24);
-            else if (str1.charAt(i) == 'y')
-                list1.add(25);
-            else if (str1.charAt(i) == 'z')
-                list1.add(26);
-            else if (str1.charAt(i) == 'A')
-                list1.add(27);
-            else if (str1.charAt(i) == 'B')
-                list1.add(28);
-            else if (str1.charAt(i) == 'C')
-                list1.add(29);
-            else if (str1.charAt(i) == 'D')
-                list1.add(30);
-            else if (str1.charAt(i) == 'E')
-                list1.add(31);
-            else if (str1.charAt(i) == 'F')
-                list1.add(32);
-            else if (str1.charAt(i) == 'G')
-                list1.add(33);
-            else if (str1.charAt(i) == 'H')
-                list1.add(34);
-            else if (str1.charAt(i) == 'I')
-                list1.add(35);
-            else if (str1.charAt(i) == 'J')
-                list1.add(36);
-            else if (str1.charAt(i) == 'K')
-                list1.add(37);
-            else if (str1.charAt(i) == 'L')
-                list1.add(38);
-            else if (str1.charAt(i) == 'M')
-                list1.add(39);
-            else if (str1.charAt(i) == 'N')
-                list1.add(40);
-            else if (str1.charAt(i) == 'O')
-                list1.add(41);
-            else if (str1.charAt(i) == 'P')
-                list1.add(42);
-            else if (str1.charAt(i) == 'Q')
-                list1.add(43);
-            else if (str1.charAt(i) == 'R')
-                list1.add(44);
-            else if (str1.charAt(i) == 'S')
-                list1.add(45);
-            else if (str1.charAt(i) == 'T')
-                list1.add(46);
-            else if (str1.charAt(i) == 'U')
-                list1.add(47);
-            else if (str1.charAt(i) == 'V')
-                list1.add(48);
-            else if (str1.charAt(i) == 'W')
-                list1.add(49);
-            else if (str1.charAt(i) == 'X')
-                list1.add(50);
-            else if (str1.charAt(i) == 'Y')
-                list1.add(51);
-            else if (str1.charAt(i) == 'Z')
-                list1.add(52);
-            else if (str1.charAt(i) == '0')
-                list1.add(53);
-            else if (str1.charAt(i) == '1')
-                list1.add(54);
-            else if (str1.charAt(i) == '2')
-                list1.add(55);
-            else if (str1.charAt(i) == '3')
-                list1.add(56);
-            else if (str1.charAt(i) == '4')
-                list1.add(57);
-            else if (str1.charAt(i) == '5')
-                list1.add(58);
-            else if (str1.charAt(i) == '6')
-                list1.add(59);
-            else if (str1.charAt(i) == '7')
-                list1.add(60);
-            else if (str1.charAt(i) == '8')
-                list1.add(61);
-            else if (str1.charAt(i) == '9')
-                list1.add(62);
-            else if (str1.charAt(i) == '!')
-                list1.add(63);
-            else if (str1.charAt(i) == '@')
-                list1.add(64);
-            else if (str1.charAt(i) == '#')
-                list1.add(65);
-            else if (str1.charAt(i) == '$')
-                list1.add(66);
-            else if (str1.charAt(i) == '%')
-                list1.add(67);
-            else if (str1.charAt(i) == '&')
-                list1.add(68);
-            else if (str1.charAt(i) == '*')
-                list1.add(69);
-            else if (str1.charAt(i) == '(')
-                list1.add(70);
-            else if (str1.charAt(i) == ')')
-                list1.add(71);
-            else if (str1.charAt(i) == '-')
-                list1.add(72);
-            else if (str1.charAt(i) == '+')
-                list1.add(73);
-            else if (str1.charAt(i) == '=')
-                list1.add(74);
-            else if (str1.charAt(i) == ':')
-                list1.add(75);
-            else if (str1.charAt(i) == ',')
-                list1.add(76);
-            else if (str1.charAt(i) == '.')
-                list1.add(77);
-            else if (str1.charAt(i) == '?')
-                list1.add(78);
+            switch (str1.charAt(i))
+            {
+                case 'a':
+                    list1.add(1);
+                    break;
+                case 'b':
+                    list1.add(2);
+                    break;
+                case 'c':
+                    list1.add(3);
+                    break;
+                case 'd':
+                    list1.add(4);
+                    break;
+                case 'e':
+                    list1.add(5);
+                    break;
+                case 'f':
+                    list1.add(6);
+                    break;
+                case 'g':
+                    list1.add(7);
+                    break;
+                case 'h':
+                    list1.add(8);
+                    break;
+                case 'i':
+                    list1.add(9);
+                    break;
+                case 'j':
+                    list1.add(10);
+                    break;
+                case 'k':
+                    list1.add(11);
+                    break;
+                case 'l':
+                    list1.add(12);
+                    break;
+                case 'm':
+                    list1.add(13);
+                    break;
+                case 'n':
+                    list1.add(14);
+                    break;
+                case 'o':
+                    list1.add(15);
+                    break;
+                case 'p':
+                    list1.add(16);
+                    break;
+                case 'q':
+                    list1.add(17);
+                    break;
+                case 'r':
+                    list1.add(18);
+                    break;
+                case 's':
+                    list1.add(19);
+                    break;
+                case 't':
+                    list1.add(20);
+                    break;
+                case 'u':
+                    list1.add(21);
+                    break;
+                case 'v':
+                    list1.add(22);
+                    break;
+                case 'w':
+                    list1.add(23);
+                    break;
+                case 'x':
+                    list1.add(24);
+                    break;
+                case 'y':
+                    list1.add(25);
+                    break;
+                case 'z':
+                    list1.add(26);
+                    break;
+                case 'A':
+                    list1.add(27);
+                    break;
+                case 'B':
+                    list1.add(28);
+                    break;
+                case 'C':
+                    list1.add(29);
+                    break;
+                case 'D':
+                    list1.add(30);
+                    break;
+                case 'E':
+                    list1.add(31);
+                    break;
+                case 'F':
+                    list1.add(32);
+                    break;
+                case 'G':
+                    list1.add(33);
+                    break;
+                case 'H':
+                    list1.add(34);
+                    break;
+                case 'I':
+                    list1.add(35);
+                    break;
+                case 'J':
+                    list1.add(36);
+                    break;
+                case 'K':
+                    list1.add(37);
+                    break;
+                case 'L':
+                    list1.add(38);
+                    break;
+                case 'M':
+                    list1.add(39);
+                    break;
+                case 'N':
+                    list1.add(40);
+                    break;
+                case 'O':
+                    list1.add(41);
+                    break;
+                case 'P':
+                    list1.add(42);
+                    break;
+                case 'Q':
+                    list1.add(43);
+                    break;
+                case 'R':
+                    list1.add(44);
+                    break;
+                case 'S':
+                    list1.add(45);
+                    break;
+                case 'T':
+                    list1.add(46);
+                    break;
+                case 'U':
+                    list1.add(47);
+                    break;
+                case 'V':
+                    list1.add(48);
+                    break;
+                case 'W':
+                    list1.add(49);
+                    break;
+                case 'X':
+                    list1.add(50);
+                    break;
+                case 'Y':
+                    list1.add(51);
+                    break;
+                case 'Z':
+                    list1.add(52);
+                    break;
+                case '0':
+                    list1.add(53);
+                    break;
+                case '1':
+                    list1.add(54);
+                    break;
+                case '2':
+                    list1.add(55);
+                    break;
+                case '3':
+                    list1.add(56);
+                    break;
+                case '4':
+                    list1.add(57);
+                    break;
+                case '5':
+                    list1.add(58);
+                    break;
+                case '6':
+                    list1.add(59);
+                    break;
+                case '7':
+                    list1.add(60);
+                    break;
+                case '8':
+                    list1.add(61);
+                    break;
+                case '9':
+                    list1.add(62);
+                    break;
+                case '!':
+                    list1.add(63);
+                    break;
+                case '@':
+                    list1.add(64);
+                    break;
+                case '#':
+                    list1.add(65);
+                    break;
+                case '$':
+                    list1.add(66);
+                    break;
+                case '%':
+                    list1.add(67);
+                    break;
+                case '&':
+                    list1.add(68);
+                    break;
+                case '*':
+                    list1.add(69);
+                    break;
+                case '(':
+                    list1.add(70);
+                    break;
+                case ')':
+                    list1.add(71);
+                    break;
+                case '-':
+                    list1.add(72);
+                    break;
+                case '+':
+                    list1.add(73);
+                    break;
+                case '=':
+                    list1.add(74);
+                    break;
+                case ':':
+                    list1.add(75);
+                    break;
+                case ',':
+                    list1.add(76);
+                    break;
+                case '.':
+                    list1.add(77);
+                    break;
+                case '?':
+                    list1.add(78);
+                    break;
+            }
         }
         return list1;
     }
 
     public static String lsttostrws(List list1) {
         StringBuilder str1 = new StringBuilder();
-        for (int i = 0; i < list1.size(); i++)
-        {
-            if ((int) list1.get(i) == 1) {
-                str1.append('a');}
-            else if ((int) list1.get(i) == 2){
-                str1.append('b');}
-            else if ((int) list1.get(i) == 3){
-                str1.append('c');}
-            else if ((int) list1.get(i) == 4){
-                str1.append('d');}
-            else if ((int) list1.get(i) == 5){
-                str1.append('e');}
-            else if ((int) list1.get(i) == 6){
-                str1.append('f');}
-            else if ((int) list1.get(i) == 7){
-                str1.append('g');}
-            else if ((int) list1.get(i) == 8){
-                str1.append('h');}
-            else if ((int) list1.get(i) == 9){
-                str1.append('i');}
-            else if ((int) list1.get(i) == 10){
-                str1.append('j');}
-            else if ((int) list1.get(i) == 11){
-                str1.append('k');}
-            else if ((int) list1.get(i) == 12){
-                str1.append('l');}
-            else if ((int) list1.get(i) == 13){
-                str1.append('m');}
-            else if ((int) list1.get(i) == 14){
-                str1.append('n');}
-            else if ((int) list1.get(i) == 15){
-                str1.append('o');}
-            else if ((int) list1.get(i) == 16){
-                str1.append('p');}
-            else if ((int) list1.get(i) == 17){
-                str1.append('q');}
-            else if ((int) list1.get(i) == 18){
-                str1.append('r');}
-            else if ((int) list1.get(i) == 19){
-                str1.append('s');}
-            else if ((int) list1.get(i) == 20){
-                str1.append('t');}
-            else if ((int) list1.get(i) == 21){
-                str1.append('u');}
-            else if ((int) list1.get(i) == 22){
-                str1.append('v');}
-            else if ((int) list1.get(i) == 23){
-                str1.append('w');}
-            else if ((int) list1.get(i) == 24){
-                str1.append('x');}
-            else if ((int) list1.get(i) == 25){
-                str1.append('y');}
-            else if ((int) list1.get(i) == 26){
-                str1.append('z');}
-            else if ((int) list1.get(i) == 27){
-                str1.append('A');}
-            else if ((int) list1.get(i) == 28){
-                str1.append('B');}
-            else if ((int) list1.get(i) == 29){
-                str1.append('C');}
-            else if ((int) list1.get(i) == 30){
-                str1.append('D');}
-            else if ((int) list1.get(i) == 31){
-                str1.append('E');}
-            else if ((int) list1.get(i) == 32){
-                str1.append('F');}
-            else if ((int) list1.get(i) == 33){
-                str1.append('G');}
-            else if ((int) list1.get(i) == 34){
-                str1.append('H');}
-            else if ((int) list1.get(i) == 35){
-                str1.append('I');}
-            else if ((int) list1.get(i) == 36){
-                str1.append('J');}
-            else if ((int) list1.get(i) == 37){
-                str1.append('K');}
-            else if ((int) list1.get(i) == 38){
-                str1.append('L');}
-            else if ((int) list1.get(i) == 39){
-                str1.append('M');}
-            else if ((int) list1.get(i) == 40){
-                str1.append('N');}
-            else if ((int) list1.get(i) == 41){
-                str1.append('O');}
-            else if ((int) list1.get(i) == 42){
-                str1.append('P');}
-            else if ((int) list1.get(i) == 43){
-                str1.append('Q');}
-            else if ((int) list1.get(i) == 44){
-                str1.append('R');}
-            else if ((int) list1.get(i) == 45){
-                str1.append('S');}
-            else if ((int) list1.get(i) == 46){
-                str1.append('T');}
-            else if ((int) list1.get(i) == 47){
-                str1.append('U');}
-            else if ((int) list1.get(i) == 48){
-                str1.append('V');}
-            else if ((int) list1.get(i) == 49){
-                str1.append('W');}
-            else if ((int) list1.get(i) == 50){
-                str1.append('X');}
-            else if ((int) list1.get(i) == 51){
-                str1.append('Y');}
-            else if ((int) list1.get(i) == 52){
-                str1.append('Z');}
-            else if ((int) list1.get(i) == 53){
-                str1.append('0');}
-            else if ((int) list1.get(i) == 54){
-                str1.append('1');}
-            else if ((int) list1.get(i) == 55){
-                str1.append('2');}
-            else if ((int) list1.get(i) == 56){
-                str1.append('3');}
-            else if ((int) list1.get(i) == 57){
-                str1.append('4');}
-            else if ((int) list1.get(i) == 58){
-                str1.append('5');}
-            else if ((int) list1.get(i) == 59){
-                str1.append('6');}
-            else if ((int) list1.get(i) == 60){
-                str1.append('7');}
-            else if ((int) list1.get(i) == 61){
-                str1.append('8');}
-            else if ((int) list1.get(i) == 0){
-                str1.append('9');}
-            else if ((int) list1.get(i) == 63)
-                str1.append('!');
-            else if ((int) list1.get(i) == 64)
-                str1.append('@');
-            else if ((int) list1.get(i) == 65)
-                str1.append('#');
-            else if ((int) list1.get(i) == 66)
-                str1.append('$');
-            else if ((int) list1.get(i) == 67)
-                str1.append('%');
-            else if ((int) list1.get(i) == 68)
-                str1.append('&');
-            else if ((int) list1.get(i) == 69)
-                str1.append('*');
-            else if ((int) list1.get(i) == 70)
-                str1.append('(');
-            else if ((int) list1.get(i) == 71)
-                str1.append(')');
-            else if ((int) list1.get(i) == 72)
-                str1.append('-');
-            else if ((int) list1.get(i) == 73)
-                str1.append('+');
-            else if ((int) list1.get(i) == 74)
-                str1.append('=');
-            else if ((int) list1.get(i) == 75)
-                str1.append(':');
-            else if ((int) list1.get(i) == 76)
-                str1.append(',');
-            else if ((int) list1.get(i) == 77)
-                str1.append('.');
-            else if ((int) list1.get(i) == 0)
-                str1.append('?');
+        for (int i = 0; i < list1.size(); i++) {
+            switch ((int) list1.get(i)) {
+                case 1:
+                    str1.append('a');
+                    break;
+                case 2:
+                    str1.append('b');
+                    break;
+                case 3:
+                    str1.append('c');
+                    break;
+                case 4:
+                    str1.append('d');
+                    break;
+                case 5:
+                    str1.append('e');
+                    break;
+                case 6:
+                    str1.append('f');
+                    break;
+                case 7:
+                    str1.append('g');
+                    break;
+                case 8:
+                    str1.append('h');
+                    break;
+                case 9:
+                    str1.append('i');
+                    break;
+                case 10:
+                    str1.append('j');
+                    break;
+                case 11:
+                    str1.append('k');
+                    break;
+                case 12:
+                    str1.append('l');
+                    break;
+                case 13:
+                    str1.append('m');
+                    break;
+                case 14:
+                    str1.append('n');
+                    break;
+                case 15:
+                    str1.append('o');
+                    break;
+                case 16:
+                    str1.append('p');
+                    break;
+                case 17:
+                    str1.append('q');
+                    break;
+                case 18:
+                    str1.append('r');
+                    break;
+                case 19:
+                    str1.append('s');
+                    break;
+                case 20:
+                    str1.append('t');
+                    break;
+                case 21:
+                    str1.append('u');
+                    break;
+                case 22:
+                    str1.append('v');
+                    break;
+                case 23:
+                    str1.append('w');
+                    break;
+                case 24:
+                    str1.append('x');
+                    break;
+                case 25:
+                    str1.append('y');
+                    break;
+                case 26:
+                    str1.append('z');
+                    break;
+                case 27:
+                    str1.append('A');
+                    break;
+                case 28:
+                    str1.append('B');
+                    break;
+                case 29:
+                    str1.append('C');
+                    break;
+                case 30:
+                    str1.append('D');
+                    break;
+                case 31:
+                    str1.append('E');
+                    break;
+                case 32:
+                    str1.append('F');
+                    break;
+                case 33:
+                    str1.append('G');
+                    break;
+                case 34:
+                    str1.append('H');
+                    break;
+                case 35:
+                    str1.append('I');
+                    break;
+                case 36:
+                    str1.append('J');
+                    break;
+                case 37:
+                    str1.append('K');
+                    break;
+                case 38:
+                    str1.append('L');
+                    break;
+                case 39:
+                    str1.append('M');
+                    break;
+                case 40:
+                    str1.append('N');
+                    break;
+                case 41:
+                    str1.append('O');
+                    break;
+                case 42:
+                    str1.append('P');
+                    break;
+                case 43:
+                    str1.append('Q');
+                    break;
+                case 44:
+                    str1.append('R');
+                    break;
+                case 45:
+                    str1.append('S');
+                    break;
+                case 46:
+                    str1.append('T');
+                    break;
+                case 47:
+                    str1.append('U');
+                    break;
+                case 48:
+                    str1.append('V');
+                    break;
+                case 49:
+                    str1.append('W');
+                    break;
+                case 50:
+                    str1.append('X');
+                    break;
+                case 51:
+                    str1.append('Y');
+                    break;
+                case 52:
+                    str1.append('Z');
+                    break;
+                case 53:
+                    str1.append('0');
+                    break;
+                case 54:
+                    str1.append('1');
+                    break;
+                case 55:
+                    str1.append('2');
+                    break;
+                case 56:
+                    str1.append('3');
+                    break;
+                case 57:
+                    str1.append('4');
+                    break;
+                case 58:
+                    str1.append('5');
+                    break;
+                case 59:
+                    str1.append('6');
+                    break;
+                case 60:
+                    str1.append('7');
+                    break;
+                case 61:
+                    str1.append('8');
+                    break;
+                case 62:
+                    str1.append('9');
+                    break;
+                case 63:
+                    str1.append('!');
+                    break;
+                case 64:
+                    str1.append('@');
+                    break;
+                case 65:
+                    str1.append('#');
+                    break;
+                case 66:
+                    str1.append('$');
+                    break;
+                case 67:
+                    str1.append('%');
+                    break;
+                case 68:
+                    str1.append('&');
+                    break;
+                case 69:
+                    str1.append('*');
+                    break;
+                case 70:
+                    str1.append('(');
+                    break;
+                case 71:
+                    str1.append(')');
+                    break;
+                case 72:
+                    str1.append('-');
+                    break;
+                case 73:
+                    str1.append('+');
+                    break;
+                case 74:
+                    str1.append('=');
+                    break;
+                case 75:
+                    str1.append(':');
+                    break;
+                case 76:
+                    str1.append(',');
+                    break;
+                case 77:
+                    str1.append('.');
+                    break;
+                case 0:
+                    str1.append('?');
+                    break;
+            }
         }
         return str1.toString();
     }
@@ -413,130 +573,193 @@ public class cod extends AppCompatActivity {
         StringBuilder str1 = new StringBuilder();
         for (int i = 0; i < list1.size(); i++)
         {
-            if ((int) list1.get(i) == 1) {
-                str1.append('a');}
-            else if ((int) list1.get(i) == 2){
-                str1.append('b');}
-            else if ((int) list1.get(i) == 3){
-                str1.append('c');}
-            else if ((int) list1.get(i) == 4){
-                str1.append('d');}
-            else if ((int) list1.get(i) == 5){
-                str1.append('e');}
-            else if ((int) list1.get(i) == 6){
-                str1.append('f');}
-            else if ((int) list1.get(i) == 7){
-                str1.append('g');}
-            else if ((int) list1.get(i) == 8){
-                str1.append('h');}
-            else if ((int) list1.get(i) == 9){
-                str1.append('i');}
-            else if ((int) list1.get(i) == 10){
-                str1.append('j');}
-            else if ((int) list1.get(i) == 11){
-                str1.append('k');}
-            else if ((int) list1.get(i) == 12){
-                str1.append('l');}
-            else if ((int) list1.get(i) == 13){
-                str1.append('m');}
-            else if ((int) list1.get(i) == 14){
-                str1.append('n');}
-            else if ((int) list1.get(i) == 15){
-                str1.append('o');}
-            else if ((int) list1.get(i) == 16){
-                str1.append('p');}
-            else if ((int) list1.get(i) == 17){
-                str1.append('q');}
-            else if ((int) list1.get(i) == 18){
-                str1.append('r');}
-            else if ((int) list1.get(i) == 19){
-                str1.append('s');}
-            else if ((int) list1.get(i) == 20){
-                str1.append('t');}
-            else if ((int) list1.get(i) == 21){
-                str1.append('u');}
-            else if ((int) list1.get(i) == 22){
-                str1.append('v');}
-            else if ((int) list1.get(i) == 23){
-                str1.append('w');}
-            else if ((int) list1.get(i) == 24){
-                str1.append('x');}
-            else if ((int) list1.get(i) == 25){
-                str1.append('y');}
-            else if ((int) list1.get(i) == 26){
-                str1.append('z');}
-            else if ((int) list1.get(i) == 27){
-                str1.append('A');}
-            else if ((int) list1.get(i) == 28){
-                str1.append('B');}
-            else if ((int) list1.get(i) == 29){
-                str1.append('C');}
-            else if ((int) list1.get(i) == 30){
-                str1.append('D');}
-            else if ((int) list1.get(i) == 31){
-                str1.append('E');}
-            else if ((int) list1.get(i) == 32){
-                str1.append('F');}
-            else if ((int) list1.get(i) == 33){
-                str1.append('G');}
-            else if ((int) list1.get(i) == 34){
-                str1.append('H');}
-            else if ((int) list1.get(i) == 35){
-                str1.append('I');}
-            else if ((int) list1.get(i) == 36){
-                str1.append('J');}
-            else if ((int) list1.get(i) == 37){
-                str1.append('K');}
-            else if ((int) list1.get(i) == 38){
-                str1.append('L');}
-            else if ((int) list1.get(i) == 39){
-                str1.append('M');}
-            else if ((int) list1.get(i) == 40){
-                str1.append('N');}
-            else if ((int) list1.get(i) == 41){
-                str1.append('O');}
-            else if ((int) list1.get(i) == 42){
-                str1.append('P');}
-            else if ((int) list1.get(i) == 43){
-                str1.append('Q');}
-            else if ((int) list1.get(i) == 44){
-                str1.append('R');}
-            else if ((int) list1.get(i) == 45){
-                str1.append('S');}
-            else if ((int) list1.get(i) == 46){
-                str1.append('T');}
-            else if ((int) list1.get(i) == 47){
-                str1.append('U');}
-            else if ((int) list1.get(i) == 48){
-                str1.append('V');}
-            else if ((int) list1.get(i) == 49){
-                str1.append('W');}
-            else if ((int) list1.get(i) == 50){
-                str1.append('X');}
-            else if ((int) list1.get(i) == 51){
-                str1.append('Y');}
-            else if ((int) list1.get(i) == 52){
-                str1.append('Z');}
-            else if ((int) list1.get(i) == 53){
-                str1.append('0');}
-            else if ((int) list1.get(i) == 54){
-                str1.append('1');}
-            else if ((int) list1.get(i) == 55){
-                str1.append('2');}
-            else if ((int) list1.get(i) == 56){
-                str1.append('3');}
-            else if ((int) list1.get(i) == 57){
-                str1.append('4');}
-            else if ((int) list1.get(i) == 58){
-                str1.append('5');}
-            else if ((int) list1.get(i) == 59){
-                str1.append('6');}
-            else if ((int) list1.get(i) == 60){
-                str1.append('7');}
-            else if ((int) list1.get(i) == 61){
-                str1.append('8');}
-            else if ((int) list1.get(i) == 0){
-                str1.append('9');}
+            switch ((int) list1.get(i)) {
+                case 1:
+                    str1.append('a');
+                    break;
+                case 2:
+                    str1.append('b');
+                    break;
+                case 3:
+                    str1.append('c');
+                    break;
+                case 4:
+                    str1.append('d');
+                    break;
+                case 5:
+                    str1.append('e');
+                    break;
+                case 6:
+                    str1.append('f');
+                    break;
+                case 7:
+                    str1.append('g');
+                    break;
+                case 8:
+                    str1.append('h');
+                    break;
+                case 9:
+                    str1.append('i');
+                    break;
+                case 10:
+                    str1.append('j');
+                    break;
+                case 11:
+                    str1.append('k');
+                    break;
+                case 12:
+                    str1.append('l');
+                    break;
+                case 13:
+                    str1.append('m');
+                    break;
+                case 14:
+                    str1.append('n');
+                    break;
+                case 15:
+                    str1.append('o');
+                    break;
+                case 16:
+                    str1.append('p');
+                    break;
+                case 17:
+                    str1.append('q');
+                    break;
+                case 18:
+                    str1.append('r');
+                    break;
+                case 19:
+                    str1.append('s');
+                    break;
+                case 20:
+                    str1.append('t');
+                    break;
+                case 21:
+                    str1.append('u');
+                    break;
+                case 22:
+                    str1.append('v');
+                    break;
+                case 23:
+                    str1.append('w');
+                    break;
+                case 24:
+                    str1.append('x');
+                    break;
+                case 25:
+                    str1.append('y');
+                    break;
+                case 26:
+                    str1.append('z');
+                    break;
+                case 27:
+                    str1.append('A');
+                    break;
+                case 28:
+                    str1.append('B');
+                    break;
+                case 29:
+                    str1.append('C');
+                    break;
+                case 30:
+                    str1.append('D');
+                    break;
+                case 31:
+                    str1.append('E');
+                    break;
+                case 32:
+                    str1.append('F');
+                    break;
+                case 33:
+                    str1.append('G');
+                    break;
+                case 34:
+                    str1.append('H');
+                    break;
+                case 35:
+                    str1.append('I');
+                    break;
+                case 36:
+                    str1.append('J');
+                    break;
+                case 37:
+                    str1.append('K');
+                    break;
+                case 38:
+                    str1.append('L');
+                    break;
+                case 39:
+                    str1.append('M');
+                    break;
+                case 40:
+                    str1.append('N');
+                    break;
+                case 41:
+                    str1.append('O');
+                    break;
+                case 42:
+                    str1.append('P');
+                    break;
+                case 43:
+                    str1.append('Q');
+                    break;
+                case 44:
+                    str1.append('R');
+                    break;
+                case 45:
+                    str1.append('S');
+                    break;
+                case 46:
+                    str1.append('T');
+                    break;
+                case 47:
+                    str1.append('U');
+                    break;
+                case 48:
+                    str1.append('V');
+                    break;
+                case 49:
+                    str1.append('W');
+                    break;
+                case 50:
+                    str1.append('X');
+                    break;
+                case 51:
+                    str1.append('Y');
+                    break;
+                case 52:
+                    str1.append('Z');
+                    break;
+                case 53:
+                    str1.append('0');
+                    break;
+                case 54:
+                    str1.append('1');
+                    break;
+                case 55:
+                    str1.append('2');
+                    break;
+                case 56:
+                    str1.append('3');
+                    break;
+                case 57:
+                    str1.append('4');
+                    break;
+                case 58:
+                    str1.append('5');
+                    break;
+                case 59:
+                    str1.append('6');
+                    break;
+                case 60:
+                    str1.append('7');
+                    break;
+                case 61:
+                    str1.append('8');
+                    break;
+                case 0:
+                    str1.append('9');
+            }
         }
         return str1.toString();
     }
@@ -582,130 +805,195 @@ public class cod extends AppCompatActivity {
     public static List strtolst(String str1){
         List list1 = new ArrayList();
         for (int i = 0; i < (int) str1.length(); i++) {
-            if (str1.charAt(i) == 'a')
-                list1.add(1);
-            else if (str1.charAt(i) == 'b')
-                list1.add(2);
-            else if (str1.charAt(i) == 'c')
-                list1.add(3);
-            else if (str1.charAt(i) == 'd')
-                list1.add(4);
-            else if (str1.charAt(i) == 'e')
-                list1.add(5);
-            else if (str1.charAt(i) == 'f')
-                list1.add(6);
-            else if (str1.charAt(i) == 'g')
-                list1.add(7);
-            else if (str1.charAt(i) == 'h')
-                list1.add(8);
-            else if (str1.charAt(i) == 'i')
-                list1.add(9);
-            else if (str1.charAt(i) == 'j')
-                list1.add(10);
-            else if (str1.charAt(i) == 'k')
-                list1.add(11);
-            else if (str1.charAt(i) == 'l')
-                list1.add(12);
-            else if (str1.charAt(i) == 'm')
-                list1.add(13);
-            else if (str1.charAt(i) == 'n')
-                list1.add(14);
-            else if (str1.charAt(i) == 'o')
-                list1.add(15);
-            else if (str1.charAt(i) == 'p')
-                list1.add(16);
-            else if (str1.charAt(i) == 'q')
-                list1.add(17);
-            else if (str1.charAt(i) == 'r')
-                list1.add(18);
-            else if (str1.charAt(i) == 's')
-                list1.add(19);
-            else if (str1.charAt(i) == 't')
-                list1.add(20);
-            else if (str1.charAt(i) == 'u')
-                list1.add(21);
-            else if (str1.charAt(i) == 'v')
-                list1.add(22);
-            else if (str1.charAt(i) == 'w')
-                list1.add(23);
-            else if (str1.charAt(i) == 'x')
-                list1.add(24);
-            else if (str1.charAt(i) == 'y')
-                list1.add(25);
-            else if (str1.charAt(i) == 'z')
-                list1.add(26);
-            else if (str1.charAt(i) == 'A')
-                list1.add(27);
-            else if (str1.charAt(i) == 'B')
-                list1.add(28);
-            else if (str1.charAt(i) == 'C')
-                list1.add(29);
-            else if (str1.charAt(i) == 'D')
-                list1.add(30);
-            else if (str1.charAt(i) == 'E')
-                list1.add(31);
-            else if (str1.charAt(i) == 'F')
-                list1.add(32);
-            else if (str1.charAt(i) == 'G')
-                list1.add(33);
-            else if (str1.charAt(i) == 'H')
-                list1.add(34);
-            else if (str1.charAt(i) == 'I')
-                list1.add(35);
-            else if (str1.charAt(i) == 'J')
-                list1.add(36);
-            else if (str1.charAt(i) == 'K')
-                list1.add(37);
-            else if (str1.charAt(i) == 'L')
-                list1.add(38);
-            else if (str1.charAt(i) == 'M')
-                list1.add(39);
-            else if (str1.charAt(i) == 'N')
-                list1.add(40);
-            else if (str1.charAt(i) == 'O')
-                list1.add(41);
-            else if (str1.charAt(i) == 'P')
-                list1.add(42);
-            else if (str1.charAt(i) == 'Q')
-                list1.add(43);
-            else if (str1.charAt(i) == 'R')
-                list1.add(44);
-            else if (str1.charAt(i) == 'S')
-                list1.add(45);
-            else if (str1.charAt(i) == 'T')
-                list1.add(46);
-            else if (str1.charAt(i) == 'U')
-                list1.add(47);
-            else if (str1.charAt(i) == 'V')
-                list1.add(48);
-            else if (str1.charAt(i) == 'W')
-                list1.add(49);
-            else if (str1.charAt(i) == 'X')
-                list1.add(50);
-            else if (str1.charAt(i) == 'Y')
-                list1.add(51);
-            else if (str1.charAt(i) == 'Z')
-                list1.add(52);
-            else if (str1.charAt(i) == '0')
-                list1.add(53);
-            else if (str1.charAt(i) == '1')
-                list1.add(54);
-            else if (str1.charAt(i) == '2')
-                list1.add(55);
-            else if (str1.charAt(i) == '3')
-                list1.add(56);
-            else if (str1.charAt(i) == '4')
-                list1.add(57);
-            else if (str1.charAt(i) == '5')
-                list1.add(58);
-            else if (str1.charAt(i) == '6')
-                list1.add(59);
-            else if (str1.charAt(i) == '7')
-                list1.add(60);
-            else if (str1.charAt(i) == '8')
-                list1.add(61);
-            else if (str1.charAt(i) == '9')
-                list1.add(62);
+            switch (str1.charAt(i))
+            {
+                case 'a':
+                    list1.add(1);
+                    break;
+                case 'b':
+                    list1.add(2);
+                    break;
+                case 'c':
+                    list1.add(3);
+                    break;
+                case 'd':
+                    list1.add(4);
+                    break;
+                case 'e':
+                    list1.add(5);
+                    break;
+                case 'f':
+                    list1.add(6);
+                    break;
+                case 'g':
+                    list1.add(7);
+                    break;
+                case 'h':
+                    list1.add(8);
+                    break;
+                case 'i':
+                    list1.add(9);
+                    break;
+                case 'j':
+                    list1.add(10);
+                    break;
+                case 'k':
+                    list1.add(11);
+                    break;
+                case 'l':
+                    list1.add(12);
+                    break;
+                case 'm':
+                    list1.add(13);
+                    break;
+                case 'n':
+                    list1.add(14);
+                    break;
+                case 'o':
+                    list1.add(15);
+                    break;
+                case 'p':
+                    list1.add(16);
+                    break;
+                case 'q':
+                    list1.add(17);
+                    break;
+                case 'r':
+                    list1.add(18);
+                    break;
+                case 's':
+                    list1.add(19);
+                    break;
+                case 't':
+                    list1.add(20);
+                    break;
+                case 'u':
+                    list1.add(21);
+                    break;
+                case 'v':
+                    list1.add(22);
+                    break;
+                case 'w':
+                    list1.add(23);
+                    break;
+                case 'x':
+                    list1.add(24);
+                    break;
+                case 'y':
+                    list1.add(25);
+                    break;
+                case 'z':
+                    list1.add(26);
+                    break;
+                case 'A':
+                    list1.add(27);
+                    break;
+                case 'B':
+                    list1.add(28);
+                    break;
+                case 'C':
+                    list1.add(29);
+                    break;
+                case 'D':
+                    list1.add(30);
+                    break;
+                case 'E':
+                    list1.add(31);
+                    break;
+                case 'F':
+                    list1.add(32);
+                    break;
+                case 'G':
+                    list1.add(33);
+                    break;
+                case 'H':
+                    list1.add(34);
+                    break;
+                case 'I':
+                    list1.add(35);
+                    break;
+                case 'J':
+                    list1.add(36);
+                    break;
+                case 'K':
+                    list1.add(37);
+                    break;
+                case 'L':
+                    list1.add(38);
+                    break;
+                case 'M':
+                    list1.add(39);
+                    break;
+                case 'N':
+                    list1.add(40);
+                    break;
+                case 'O':
+                    list1.add(41);
+                    break;
+                case 'P':
+                    list1.add(42);
+                    break;
+                case 'Q':
+                    list1.add(43);
+                    break;
+                case 'R':
+                    list1.add(44);
+                    break;
+                case 'S':
+                    list1.add(45);
+                    break;
+                case 'T':
+                    list1.add(46);
+                    break;
+                case 'U':
+                    list1.add(47);
+                    break;
+                case 'V':
+                    list1.add(48);
+                    break;
+                case 'W':
+                    list1.add(49);
+                    break;
+                case 'X':
+                    list1.add(50);
+                    break;
+                case 'Y':
+                    list1.add(51);
+                    break;
+                case 'Z':
+                    list1.add(52);
+                    break;
+                case '0':
+                    list1.add(53);
+                    break;
+                case '1':
+                    list1.add(54);
+                    break;
+                case '2':
+                    list1.add(55);
+                    break;
+                case '3':
+                    list1.add(56);
+                    break;
+                case '4':
+                    list1.add(57);
+                    break;
+                case '5':
+                    list1.add(58);
+                    break;
+                case '6':
+                    list1.add(59);
+                    break;
+                case '7':
+                    list1.add(60);
+                    break;
+                case '8':
+                    list1.add(61);
+                    break;
+                case '9':
+                    list1.add(62);
+                    break;
+            }
         }
         return list1;
     }
